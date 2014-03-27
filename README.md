@@ -8,3 +8,5 @@ using ACPI. If your system does not use /sys/class/power_supply to store its
 power information, you can easily configure batt to use the proper directory
 for your system. To do this, create a file in your home directory named
 ".battrc" contaning the full path to the directory (not including the final /).
+
+NOTE: Batt uses Python 3.3 so it must be called using python3 until I make an installer.
