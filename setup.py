@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
         description = 'Lightweight terminal battery monitor',
         author = 'Austin Garrigus',
-        url = 'https=//github.com/theausus/batt',
+        url = 'https://github.com/theausus/batt',
         download_url = 'https://github.com/theausus/batt/archive/master.zip',
         author_email = 'theausus@gmail.com',
         version = '1.0',
