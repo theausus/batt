@@ -7,4 +7,4 @@ It uses the ACPI battery information and thus, will not work on systems not
 using ACPI. If your system does not use /sys/class/power_supply to store its
 power information, you can easily configure batt to use the proper directory
 for your system. To do this, create a file in your home directory named
-".battrc" contaning the full path to the folder (not including the final /).
+".battrc" contaning the full path to the directory (not including the final /).
