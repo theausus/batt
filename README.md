@@ -22,5 +22,5 @@ $ python3 setup.py install
 
 From the terminal, type
 ```
-$ batt
+# batt
 ```
