@@ -16,6 +16,14 @@ Example .battrc:
 /proc/acpi/battery/
 ```
 
+#Use Cases
+* You use terminal extensively and you want to easily check your battery life.
+* Your laptop contains multiple batteries and you want to quickly see the combined 
+  charge percentage.
+* Your desktop environment does not have a built in battery monitor (or it is
+  disabled) and you want a simple way to check battery status.
+* You want to quickly know the total current and full mWh for your batteries.
+
 #Installation
 
 Run
