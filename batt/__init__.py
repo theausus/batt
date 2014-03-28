@@ -16,3 +16,5 @@ def main():
     if full:
         print(now, 'of', full, 'mWh')
         print(round((now / full)* 100, 2), '%', sep='')
+    else:
+        print('No battery detected')
