@@ -5,7 +5,7 @@ def main():
     if os.path.exists('{}/.battrc'.format(os.path.expanduser('~'))):
         path = open('{}/.battrc'.format(os.path.expanduser('~'))).read()
     for d in os.listdir(path):
-        if d != 'AC':
+        if os.path.exists('{}/{}/charge_now'.format(path, d)):
             f_now = open('{}/{}/charge_now'.format(path, d))
             f_full = open('{}/{}/charge_full'.format(path, d))
             now.append(int(f_now.read()[:-1]))
